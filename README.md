@@ -1,4 +1,4 @@
-Spotify Web App Clone using React.
+# Spotify Web App Clone using React.
 
 ## Available Scripts
 
