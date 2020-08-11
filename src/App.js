@@ -32,7 +32,20 @@ function App() {
         )
       })
     }
-    console.log("I HAVE A TOKEN: ", token);
+
+    spotify.getUserPlaylists().then((playlists) => {
+      dispatch({
+        type: 'SET_PLAYLISTS',
+        playlists: playlists,
+      })
+    })
+
+    spotify.getPlaylist('37i9dQZEVXcLC2U8L07pwz').then(discover_weekly => {
+      dispatch({
+        type: 'SET_DISCOVER_WEEKLY',
+        discover_weekly,
+      })
+    })
   }, [])
     
     console.log('👱', user);
