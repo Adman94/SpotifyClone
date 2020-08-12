@@ -9,6 +9,10 @@
     background-color: #282828;
 }
 .footer__right * .MuiSlider-root {
+    color: white;
+    max-width: 70%;
+}
+.footer__right * .MuiSlider-root:hover{
     color: #1ed15e;
     max-width: 70%;
 }
@@ -51,8 +55,14 @@
 .footer__songInfo > p {
     font-size: 12px;
 }
-.footer__icon:hover,
+.footer__icon {
+    transform: scale(1.2)
+}
+.footer__icon:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.4) !important;
+}
 .footer__green:hover {
     transition: transform 0.2s ease-in-out;
-    transform: scale(1.2) !important;
+    transform: scale(1.15) !important;
 }

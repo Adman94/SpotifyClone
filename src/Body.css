@@ -44,8 +44,12 @@
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #1ed15e;
 }
 .body__shuffle:hover {
     transition: 100ms transform ease-in;
     transform: scale(1.08);
+}
+.body__favorite {
+    color: #1ed15e;
 }
