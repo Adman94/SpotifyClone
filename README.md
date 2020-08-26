@@ -1,4 +1,5 @@
 # Spotify Web App Clone using React.
+![](public/spotifyclone.png)
 
 ## Available Scripts
 
