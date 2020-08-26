@@ -1,5 +1,11 @@
 # Spotify Web App Clone using React.
+
+
 ![](public/spotifyclone.png)
+
+#### ** incomplete: spotify token and user login authentication functionality
+
+<hr />
 
 ## Available Scripts
 
